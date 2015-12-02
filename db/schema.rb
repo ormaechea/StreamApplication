@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20151202155902) do
 
   create_table "streams", force: :cascade do |t|
     t.integer  "stream_id"
+    t.string   "username"
     t.string   "actual_start_time"
     t.string   "site"
     t.string   "title"
