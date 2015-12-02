@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stream_id: 1
+  actual_start_time: MyString
+  site: MyString
+  title: MyString
+  url: MyString
+  viewers: 1
+
+two:
+  stream_id: 1
+  actual_start_time: MyString
+  site: MyString
+  title: MyString
+  url: MyString
+  viewers: 1
