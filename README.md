@@ -26,6 +26,17 @@ The app will have 2 pages, home page and streamer profile. The home page will ha
 - List of Live Streams
 - List of Upcoming Streams
 
+## Setup
+
+1. Download Zip or do git clone in CLI
+2. cd into the app and open it.
+3. Run bundle install to make sure all gems and dependencies are installed
+4. bin/rake db:create
+5. bin/rake db:migrate
+6. bin/rails s
+7. You are good to GO!
+
+
 ## Summary
 
 This challenge was completed in 3/4 hours. It was quite an experience. Listed below are things I enjoyed.
