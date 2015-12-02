@@ -18,8 +18,9 @@ The app will have 2 pages, home page and streamer profile. The home page will ha
 - Show a list of Upcoming Streams
 - Stream Title
 - Streamer Name (Link to profile)
-- Steam Schedule Start Time
-### Streamer Profile
+- Stream Schedule Start Time
+
+### Streamer Profile:
 - Streamer Name
 - Streamer Twitch.TV profile
 - Streamer Youtube profile
