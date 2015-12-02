@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+# @streamers = WatchPeopleCodeApi::Stream.new.streamers
+# @streamers["data"].each do |streamer|
+#   Streamer.create(username: streamer["name"], twitch: streamer["twitch"], youtube: streamer["youtube"])
+# end
