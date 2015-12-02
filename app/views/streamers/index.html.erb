@@ -1,2 +1,22 @@
-<h1>Streamers#index</h1>
-<p>Find me in app/views/streamers/index.html.erb</p>
+<h1>Streamers Profile</h1>
+
+
+<div class="streamer profile container">
+  <div class="user container">
+    <h3>Username:</h3>
+    <div id="user"><%=@user.username%></div>
+  </div>
+  <div class="twitch profile">
+    <h3>Video Platform:</h3>
+    <div id="twitch"><%=@user.twitch%></div>
+  </div>
+  <div class="youtube profile">
+    <h3>User id:</h3>
+    <div id="youtube"><%=@user.youtube%></div>
+  </div>
+</div>
+
+ <%= render 'streams/form' %>
+
+
+</div>

@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+
+h3{
+  display:inline;
+ }
+
+ #title{
+    display:inline;
+ }
+  #site{
+    display:inline;
+ }
+  #user{
+    display:inline;
+ }
+  #scheduled #start #time{
+    display:inline;
+ }
+  #twitch{
+    display:inline;
+ }
+  #youtube{
+    display:inline;
+ }
