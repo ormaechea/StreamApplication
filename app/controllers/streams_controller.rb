@@ -1,30 +1,40 @@
 class StreamsController < ApplicationController
   def index
+    #Live Streams ORM
     @live_streams = []
     @live_api_streams = WatchPeopleCodeApi::Stream.new.live_streams
-      @live_api_streams["data"].each do |stream|
+    @live_api_streams["data"].each do |stream|
       #creating the stream object ORM
-      @new_stream = Stream.new(id: stream["id"], actual_start_time: stream["actual_start_time"], site: stream["site"], title: stream["title"], url:stream["url"], viewers:stream["viewers"], username: stream["user"])
-      @live_streams << @new_stream
+      @new_live_stream = Stream.new(id: stream["id"], actual_start_time: stream["actual_start_time"], site: stream["site"], title: stream["title"], url:stream["url"], viewers:stream["viewers"], username: stream["user"])
+      @live_streams << @new_live_stream
+     end
+      #Upcoming Streams ORM
+    @upcoming_streams = []
+    @upcoming_api_streams = WatchPeopleCodeApi::Stream.new.upcoming_streams
+    @upcoming_api_streams["data"].each do |stream|
+      #creating the stream object ORM
+      @new_upcoming_stream = Stream.new(id: stream["id"], actual_start_time: stream["actual_start_time"], site: stream["site"], title: stream["title"], url:stream["url"], viewers:stream["viewers"], username: stream["user"])
+      @upcoming_streams << @new_upcoming_stream
+    end
 
     end
-  end
 
-  def show
-  end
 
-  def new
-  end
+  # def show
+  # end
 
-  def edit
-  end
+  # def new
+  # end
 
-  def create
-  end
+  # def edit
+  # end
 
-  def update
-  end
+  # def create
+  # end
 
-  def destroy
-  end
+  # def update
+  # end
+
+  # def destroy
+  # end
 end

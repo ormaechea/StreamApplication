@@ -11,6 +11,10 @@ module WatchPeopleCodeApi
       self.class.get("/api/v1/streams/upcoming")
     end
 
+    def streamers
+      self.class.get("/api/v1/streamers")
+    end
+
     def streamer_profile(name)
       self.class.get("/api/v1/streamers/#{name}")
     end
@@ -22,6 +26,8 @@ module WatchPeopleCodeApi
     def streamers_live_stream(name)
       self.class.get("/api/v1/streamers/#{name}/live")
     end
+
+
   end
 
 end
