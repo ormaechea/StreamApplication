@@ -35,7 +35,8 @@ The app will have 2 pages, home page and streamer profile. The home page will ha
 4. bin/rake db:create
 5. bin/rake db:migrate
 6. bin/rails s
-7. You are good to GO!
+7. Go to http://localhost:3000/streams on your browser for the Home page.
+8. You are good to GO!
 
 
 ## Summary
