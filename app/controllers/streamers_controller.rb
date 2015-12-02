@@ -3,6 +3,9 @@ class StreamersController < ApplicationController
   end
 
   def show
+    puts "----------------------------------------"
+    puts params
+    puts "----------------------------------------"
   end
 
   def new
