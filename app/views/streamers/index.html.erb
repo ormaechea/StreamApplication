@@ -7,8 +7,8 @@
     <div id="user"><%=@user.username%></div>
   </div>
   <div class="twitch profile">
-    <h3>Video Platform:</h3>
-    <div id="twitch"><%=@user.twitch%></div>
+    <h3>Twitch TV Profile:</h3>
+    <div id="twitch"><%=link_to @user.twitch.match(/[^\/]+$/),@user.twitch%></div>
   </div>
   <div class="youtube profile">
     <h3>User id:</h3>
