@@ -51,7 +51,6 @@ today's challenge, the first thing I did was trying to interact with the API.
 
 There are very few who schedule an upcoming stream. So for most of the time it will be empty.
 
-
 Some problems encountered when making a request for streamers that are Live Streams at the moment.
 Inline-style:
 ![Server Error](https://github.com/ormaechea/StreamApplication/raw/master/src/common/images/example-api-problem.png "mikedoescode was streaming live at the moment")
