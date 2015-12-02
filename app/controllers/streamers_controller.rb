@@ -5,6 +5,7 @@ class StreamersController < ApplicationController
    # @user = Streamer.new(username: @streamer_api_profile["data"]["name"], twitch: @streamer_api_profile["data"]["twitch"], youtube: @streamer_api_profile["data"]["youtube"])
    #So this is a workaroung
    @user = Streamer.new(username: params[:username], twitch: params[:site], youtube: params[:id])
+
   end
 
   # def new
