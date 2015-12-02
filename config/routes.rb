@@ -1,4 +1,32 @@
 Rails.application.routes.draw do
+  get 'streamers/index'
+
+  get 'streamers/show'
+
+  get 'streamers/new'
+
+  get 'streamers/edit'
+
+  get 'streamers/create'
+
+  get 'streamers/update'
+
+  get 'streamers/destroy'
+
+  get 'streams/index'
+
+  get 'streams/show'
+
+  get 'streams/new'
+
+  get 'streams/edit'
+
+  get 'streams/create'
+
+  get 'streams/update'
+
+  get 'streams/destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
