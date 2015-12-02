@@ -10,21 +10,21 @@
 
 The app will have 2 pages, home page and streamer profile. The home page will have 2 sections Live Streams and Upcoming Streams. The streamer profile page can be accessed by clicking on the name of a streamer name in any of the list.
 
-* Home Page:
-Show a list of Live Streams
-Video Player
-Stream Title
-Streamer Name (Link to profile)
-Show a list of Upcoming Streams
-Stream Title
-Streamer Name (Link to profile)
-Steam Schedule Start Time
-* Streamer Profile
-Streamer Name
-Streamer Twitch.TV profile
-Streamer Youtube profile
-List of Live Streams
-List of Upcoming Streams
+### Home Page:
+- Show a list of Live Streams
+- Video Player
+- Stream Title
+- Streamer Name (Link to profile)
+- Show a list of Upcoming Streams
+- Stream Title
+- Streamer Name (Link to profile)
+- Steam Schedule Start Time
+### Streamer Profile
+- Streamer Name
+- Streamer Twitch.TV profile
+- Streamer Youtube profile
+- List of Live Streams
+- List of Upcoming Streams
 
 ## Summary
 
