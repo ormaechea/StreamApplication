@@ -7,9 +7,9 @@
           <div class="streamer cotainer">
             <h3>Streamer Name:</h3>
             <%if stream.username == nil %>
-              <div id="user"><%= link_to stream.url.match(/[^\/]+$/),streamers_path(username: stream.url.match(/[^\/]+$/),id:stream.id, site:stream.site)%></div>
+              <div id="user"><%= link_to stream.url.match(/[^\/]+$/),streamers_path(username: stream.url.match(/[^\/]+$/),id:stream.id, site:stream.url)%></div>
             <%else%>
-              <div id="user"> <%= link_to stream.username,streamers_path(username: stream.username, id:stream.id, site:stream.site)%></div>
+              <div id="user"> <%= link_to stream.username,streamers_path(username: stream.username, id:stream.id, site:stream.url)%></div>
             <%end%>
           </div>
           <div class="title container">
@@ -31,9 +31,9 @@
           <div class="streamer cotainer">
             <h3>Streamer Name:</h3>
             <%if stream.username == nil %>
-              <div id="user"><%= link_to stream.url.match(/[^\/]+$/), streamers_path(username: stream.url.match(/[^\/]+$/),id:stream.id, site:stream.site)%></div>
+              <div id="user"><%= link_to stream.url.match(/[^\/]+$/), streamers_path(username: stream.url.match(/[^\/]+$/),id:stream.id, site:stream.url)%></div>
             <%else%>
-              <div id="user"> <%= link_to stream.username,streamers_path(username: stream.username, id:stream.id, site:stream.site )%></div>
+              <div id="user"> <%= link_to stream.username,streamers_path(username: stream.username, id:stream.id, site:stream.url )%></div>
             <%end%>
           </div>
           <div class="title container">
