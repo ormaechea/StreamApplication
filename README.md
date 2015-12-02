@@ -10,21 +10,21 @@
 
 The app will have 2 pages, home page and streamer profile. The home page will have 2 sections Live Streams and Upcoming Streams. The streamer profile page can be accessed by clicking on the name of a streamer name in any of the list.
 
-* Home Page:
-Show a list of Live Streams
-Video Player
-Stream Title
-Streamer Name (Link to profile)
-Show a list of Upcoming Streams
-Stream Title
-Streamer Name (Link to profile)
-Steam Schedule Start Time
-* Streamer Profile
-Streamer Name
-Streamer Twitch.TV profile
-Streamer Youtube profile
-List of Live Streams
-List of Upcoming Streams
+### Home Page:
+- Show a list of Live Streams
+- Video Player
+- Stream Title
+- Streamer Name (Link to profile)
+- Show a list of Upcoming Streams
+- Stream Title
+- Streamer Name (Link to profile)
+- Steam Schedule Start Time
+### Streamer Profile
+- Streamer Name
+- Streamer Twitch.TV profile
+- Streamer Youtube profile
+- List of Live Streams
+- List of Upcoming Streams
 
 ## Summary
 
@@ -53,8 +53,10 @@ There are very few who schedule an upcoming stream. So for most of the time it w
 
 Some problems encountered when making a request for streamers that are Live Streams at the moment.
 Inline-style:
-![Server Error](https://github.com/ormaechea/StreamApplication/raw/master/src/common/images/example-api-problem.png "mikedoescode was streaming live at the moment")
+![Server Error](https://github.com/ormaechea/StreamApplication/blob/master/app/assets/images/example-api-problem.png "mikedoescode was streaming live at the moment")
+
+
 
 Another problem encountered was that a lot of users do not set their username so I had to obtain it from their Twitch profile assuming they would have the same username as in their Twitch profile or they signed up with Twitch.
-![Null Endpoints](https://github.com/ormaechea/StreamApplication/raw/master/src/common/images/null-endpoints.png "user value is set to null")
+![Null Endpoints](https://github.com/ormaechea/StreamApplication/blob/master/app/assets/images/null-endpoints.png "user value is set to null")
 
