@@ -55,6 +55,16 @@ h3{
 
     }
 
+ .home a{
+  color:white;
+  font-size:30px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  font-family: Optima;
+
+}
+
 .live .stream {
 height: 100px;
 width: 800px;
