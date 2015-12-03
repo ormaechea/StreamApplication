@@ -31,10 +31,10 @@ The app will have 2 pages, home page and streamer profile. The home page will ha
 
 1. Download Zip or do git clone in CLI
 2. cd into the app and open it.
-3. Run bundle install to make sure all gems and dependencies are installed
-4. bin/rake db:create
-5. bin/rake db:migrate
-6. bin/rails s
+3. Run IN CLI -> bundle install to make sure all gems and dependencies are installed
+4. Run in ClI -> bin/rake db:create
+5. Run in ClI -> bin/rake db:migrate
+6. Run in ClI -> bin/rails s
 7. Go to http://localhost:3000/streams on your browser for the Home page.
 8. You are good to GO!
 
