@@ -3,18 +3,22 @@
 
 
 <div class="streamer profile container">
+
   <div class="user container">
     <h3>Username:</h3>
     <div id="user"><%=@user.username%></div>
   </div>
+
   <div class="twitch profile">
     <h3>Twitch TV Profile:</h3>
     <div id="twitch"><%=link_to @user.twitch.match(/[^\/]+$/),@user.twitch%></div>
   </div>
+
   <div class="youtube profile">
     <h3>User id:</h3>
     <div id="youtube"><%=@user.youtube%></div>
   </div>
+
 </div>
 
  <%= render 'streams/form' %>
